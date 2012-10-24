@@ -1,4 +1,0 @@
-AddType 'application/x-httpd-php; charset=shift_jis' .php
-AddCharset SHIFT_JIS .php
-AddDefaultCharset   SHIFT_JIS
-php_value mbstring.http_output Shift_JIS
