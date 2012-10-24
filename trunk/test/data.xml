@@ -1,0 +1,2277 @@
+<root>
+	<mst_product>
+		<fproductid>A</fproductid>
+		<fname>First Item</fname>
+		<fstnd_cost>10</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>12</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-20</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6>01</fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>C</fproductid>
+		<fname>Third Item</fname>
+		<fstnd_cost>30</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>36</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-20</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6>03</fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>PURCHASE</fproductid>
+		<fname>purchase</fname>
+		<fstnd_cost>1785.71428571428597</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>0</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-26</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>F</fproductid>
+		<fname>F</fname>
+		<fstnd_cost>100</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>120</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-28</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>H</fproductid>
+		<fname>h</fname>
+		<fstnd_cost>1</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>2</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-28</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>DEPOSIT</fproductid>
+		<fname>deposit</fname>
+		<fstnd_cost>0</fstnd_cost>
+		<fprev_cost></fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>0</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>7</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-03-02</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>COKE</fproductid>
+		<fname>coke</fname>
+		<fstnd_cost>15</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>40</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-03-08</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6>03</fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>DRAWER</fproductid>
+		<fname>23dsa</fname>
+		<fstnd_cost>0</fstnd_cost>
+		<fprev_cost></fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>0</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>2</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-03-29</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>Z</fproductid>
+		<fname>z</fname>
+		<fstnd_cost>2800</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>0</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-03-30</flaunch_date>
+		<fcategory_value1>AP</fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>TEST</fproductid>
+		<fname>sdf</fname>
+		<fstnd_cost>10</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>343</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date></flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>X</fproductid>
+		<fname>x</fname>
+		<fstnd_cost>0</fstnd_cost>
+		<fprev_cost></fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>0</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-05-18</flaunch_date>
+		<fcategory_value1>AP</fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>hello</fproductid>
+		<fname>hello2</fname>
+		<fstnd_cost></fstnd_cost>
+		<fprev_cost></fprev_cost>
+		<fmin_price></fmin_price>
+		<fmarkup></fmarkup>
+		<fmarkcost></fmarkcost>
+		<flist_price></flist_price>
+		<ftax_type></ftax_type>
+		<fproduct_type></fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid></fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty></fdecimal_qty>
+		<falert_qty></falert_qty>
+		<freorder_qty></freorder_qty>
+		<fmax_qty></fmax_qty>
+		<fexpiry_alert></fexpiry_alert>
+		<flaunch_date></flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>B</fproductid>
+		<fname>Second Item</fname>
+		<fstnd_cost>20</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>24</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-20</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6>03</fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>D</fproductid>
+		<fname>Fourth Item</fname>
+		<fstnd_cost>40</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>58</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-20</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6>03</fcategory_value6>
+	</mst_product>
+	<mst_product>
+		<fproductid>G</fproductid>
+		<fname>g</fname>
+		<fstnd_cost>22</fstnd_cost>
+		<fprev_cost>0</fprev_cost>
+		<fmin_price>0</fmin_price>
+		<fmarkup>10</fmarkup>
+		<fmarkcost>0</fmarkcost>
+		<flist_price>40</flist_price>
+		<ftax_type>0</ftax_type>
+		<fproduct_type>0</fproduct_type>
+		<fclassid></fclassid>
+		<fgeneric_name></fgeneric_name>
+		<falternate1></falternate1>
+		<falternate2></falternate2>
+		<fuomid>PCS</fuomid>
+		<fselling_uom></fselling_uom>
+		<fpurchase_uom></fpurchase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+		<falert_qty>0</falert_qty>
+		<freorder_qty>0</freorder_qty>
+		<fmax_qty>0</fmax_qty>
+		<fexpiry_alert>0</fexpiry_alert>
+		<flaunch_date>2011-01-28</flaunch_date>
+		<fcategory_value1></fcategory_value1>
+		<fcategory_value2></fcategory_value2>
+		<fcategory_value3></fcategory_value3>
+		<fcategory_value4></fcategory_value4>
+		<fcategory_value5></fcategory_value5>
+		<fcategory_value6></fcategory_value6>
+	</mst_product>
+	<mst_bank>
+		<fbankid>TEST</fbankid>
+		<fname>test</fname>
+	</mst_bank>
+	<mst_bank>
+		<fbankid>BPI</fbankid>
+		<fname>Bank of the Philippines</fname>
+	</mst_bank>
+	<mst_region>
+		<fregionid>7</fregionid>
+		<fname>Region 7</fname>
+	</mst_region>
+	<mst_region>
+		<fregionid>1</fregionid>
+		<fname>Region 1</fname>
+	</mst_region>
+	<mst_warehouse>
+		<fsiteid>MAINSITE</fsiteid>
+		<fname>MAINSITE</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>MAIN</fsiteid>
+		<fname>MAIN</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>60110</fsiteid>
+		<fname>60110</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>60111</fsiteid>
+		<fname>60111</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>AYALA</fsiteid>
+		<fname>AYALA</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>B-HM</fsiteid>
+		<fname>B-HM</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_warehouse>
+		<fsiteid>STOCKROOM</fsiteid>
+		<fname>STOCKROOM</fname>
+		<faddress1>Computer Generated</faddress1>
+		<faddress2></faddress2>
+		<faddress3></faddress3>
+		<fphone></fphone>
+		<ffax></ffax>
+	</mst_warehouse>
+	<mst_uom>
+		<fuomid>PCS</fuomid>
+		<fname>PC -- Computer Auto Generated</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SHT</fuomid>
+		<fname>SHT</fname>
+		<fbase_uom>SHT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SET</fuomid>
+		<fname>SET</fname>
+		<fbase_uom>SET</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PC</fuomid>
+		<fname>PC</fname>
+		<fbase_uom>PC</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>GROSS</fuomid>
+		<fname>GROSS</fname>
+		<fbase_uom>GROSS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 GROSS/144.00 P</fuomid>
+		<fname>0 GROSS/144.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>KLS</fuomid>
+		<fname>KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>UNIT</fuomid>
+		<fname>UNIT</fname>
+		<fbase_uom>UNIT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PRS</fuomid>
+		<fname>PRS</fname>
+		<fbase_uom>PRS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PACK</fuomid>
+		<fname>PACK</fname>
+		<fbase_uom>PACK</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 PACK/0.00 PCS</fuomid>
+		<fname>0 PACK/0.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>FT</fuomid>
+		<fname>FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>ROLL</fuomid>
+		<fname>ROLL</fname>
+		<fbase_uom>ROLL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>CAN</fuomid>
+		<fname>CAN</fname>
+		<fbase_uom>CAN</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>KL</fuomid>
+		<fname>KL</fname>
+		<fbase_uom>KL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>BOX</fuomid>
+		<fname>BOX</fname>
+		<fbase_uom>BOX</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 KLS/20.00 PCS</fuomid>
+		<fname>0 KLS/20.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/20.00 KLS</fuomid>
+		<fname>0 BOX/20.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/20.00 KL</fuomid>
+		<fname>0 BOX/20.00 KL</fname>
+		<fbase_uom>KL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/10.00 KLS</fuomid>
+		<fname>0 BOX/10.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 KLS/32.00 PCS</fuomid>
+		<fname>0 KLS/32.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 KLS/50.00 PCS</fuomid>
+		<fname>0 KLS/50.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 KLS/35.00 PCS</fuomid>
+		<fname>0 KLS/35.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PAIR</fuomid>
+		<fname>PAIR</fname>
+		<fbase_uom>PAIR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>TUBE</fuomid>
+		<fname>TUBE</fname>
+		<fbase_uom>TUBE</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>TUBES</fuomid>
+		<fname>TUBES</fname>
+		<fbase_uom>TUBES</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LITER</fuomid>
+		<fname>LITER</fname>
+		<fbase_uom>LITER</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PC.</fuomid>
+		<fname>PC.</fname>
+		<fbase_uom>PC.</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LTR</fuomid>
+		<fname>LTR</fname>
+		<fbase_uom>LTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/50.00 MTS</fuomid>
+		<fname>0 ROLL/50.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>BOT</fuomid>
+		<fname>BOT</fname>
+		<fbase_uom>BOT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SET.</fuomid>
+		<fname>SET.</fname>
+		<fbase_uom>SET.</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PCS.</fuomid>
+		<fname>PCS.</fname>
+		<fbase_uom>PCS.</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LENGTH</fuomid>
+		<fname>LENGTH</fname>
+		<fbase_uom>LENGTH</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/30.00 FT</fuomid>
+		<fname>0 BOX/30.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LGTH</fuomid>
+		<fname>LGTH</fname>
+		<fbase_uom>LGTH</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 LENGTH/16.00 F</fuomid>
+		<fname>0 LENGTH/16.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 SET/2.00 PCS</fuomid>
+		<fname>0 SET/2.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PRS.</fuomid>
+		<fname>PRS.</fname>
+		<fbase_uom>PRS.</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 DOZ/12.00 PRS</fuomid>
+		<fname>0 DOZ/12.00 PRS</fname>
+		<fbase_uom>PRS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>3PCS</fuomid>
+		<fname>3PCS</fname>
+		<fbase_uom>3PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>GAL</fuomid>
+		<fname>GAL</fname>
+		<fbase_uom>GAL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>QRT</fuomid>
+		<fname>QRT</fname>
+		<fbase_uom>QRT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>BAG</fuomid>
+		<fname>BAG</fname>
+		<fbase_uom>BAG</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PAIL</fuomid>
+		<fname>PAIL</fname>
+		<fbase_uom>PAIL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SHTS</fuomid>
+		<fname>SHTS</fname>
+		<fbase_uom>SHTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/1.75 KLS</fuomid>
+		<fname>0 BOX/1.75 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/30.00 MTR</fuomid>
+		<fname>0 ROLL/30.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/26.00 MTR</fuomid>
+		<fname>0 ROLL/26.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/25.00 MTR</fuomid>
+		<fname>0 ROLL/25.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>MTR</fuomid>
+		<fname>MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SHEET</fuomid>
+		<fname>SHEET</fname>
+		<fbase_uom>SHEET</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PAIRS</fuomid>
+		<fname>PAIRS</fname>
+		<fbase_uom>PAIRS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SQM</fuomid>
+		<fname>SQM</fname>
+		<fbase_uom>SQM</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LENGHT</fuomid>
+		<fname>LENGHT</fname>
+		<fbase_uom>LENGHT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PACKS</fuomid>
+		<fname>PACKS</fname>
+		<fbase_uom>PACKS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 LENGHT/0.00 LE</fuomid>
+		<fname>0 LENGHT/0.00 LENGHT</fname>
+		<fbase_uom>LENGHT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/24.00 MTR</fuomid>
+		<fname>0 ROLL/24.00 MTRS</fname>
+		<fbase_uom>MTRS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/30.00 FT</fuomid>
+		<fname>0 ROLL/30.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 LENGHT/4.00 FT</fuomid>
+		<fname>0 LENGHT/4.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/50.00 FT</fuomid>
+		<fname>0 ROLL/50.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/100.00 MT</fuomid>
+		<fname>0 ROLL/100.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/0.00 MTR</fuomid>
+		<fname>0 ROLL/0.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/90.00 MTS</fuomid>
+		<fname>0 ROLL/90.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/90.00 MTR</fuomid>
+		<fname>0 ROLL/90.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/50.00 MTR</fuomid>
+		<fname>0 ROLL/50.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/300.00 MT</fuomid>
+		<fname>0 ROLL/300.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/150.00 MT</fuomid>
+		<fname>0 ROLL/150.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/60.00 MTR</fuomid>
+		<fname>0 ROLL/60.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>MTS</fuomid>
+		<fname>MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/300.00 SQ</fuomid>
+		<fname>0 ROLL/300.00 SQFT</fname>
+		<fbase_uom>SQFT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/75.00 FT</fuomid>
+		<fname>0 ROLL/75.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>BAGS</fuomid>
+		<fname>BAGS</fname>
+		<fbase_uom>BAGS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>DRUM</fuomid>
+		<fname>DRUM</fname>
+		<fbase_uom>DRUM</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 CASE/25.00 KLS</fuomid>
+		<fname>0 CASE/25.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/25.00 KLS</fuomid>
+		<fname>0 BOX/25.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 BOX/25.00 KL</fuomid>
+		<fname>0 BOX/25.00 KL</fname>
+		<fbase_uom>KL</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>CASE</fuomid>
+		<fname>CASE</fname>
+		<fbase_uom>CASE</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 CASE/45.00 KLS</fuomid>
+		<fname>0 CASE/45.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 CASE/40.00 KLS</fuomid>
+		<fname>0 CASE/40.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>KILOS</fuomid>
+		<fname>KILOS</fname>
+		<fbase_uom>KILOS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/40.00 KLS</fuomid>
+		<fname>0 ROLL/40.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/36.00 KLS</fuomid>
+		<fname>0 ROLL/36.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/25.00 KLS</fuomid>
+		<fname>0 ROLL/25.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/33.00 KLS</fuomid>
+		<fname>0 ROLL/33.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/35.00 KLS</fuomid>
+		<fname>0 ROLL/35.00 KLS</fname>
+		<fbase_uom>KLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/30.00 MTS</fuomid>
+		<fname>0 ROLL/30.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/15.00 MTR</fuomid>
+		<fname>0 ROLL/15.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/200.00 MT</fuomid>
+		<fname>0 ROLL/200.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>SHEETS</fuomid>
+		<fname>SHEETS</fname>
+		<fbase_uom>SHEETS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LENTH</fuomid>
+		<fname>LENTH</fname>
+		<fbase_uom>LENTH</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>LGTHS</fuomid>
+		<fname>LGTHS</fname>
+		<fbase_uom>LGTHS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>ROLLS</fuomid>
+		<fname>ROLLS</fname>
+		<fbase_uom>ROLLS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>METER</fuomid>
+		<fname>METER</fname>
+		<fbase_uom>METER</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 LGTH/20.00 FT</fuomid>
+		<fname>0 LGTH/20.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PET</fuomid>
+		<fname>PET</fname>
+		<fbase_uom>PET</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 PRS/0.00 PCS</fuomid>
+		<fname>0 PRS/0.00 PCS</fname>
+		<fbase_uom>PCS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/90.00 FT</fuomid>
+		<fname>0 ROLL/90.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/55.00 FT</fuomid>
+		<fname>0 ROLL/55.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/40.00 FT</fuomid>
+		<fname>0 ROLL/40.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/35.00 FT</fuomid>
+		<fname>0 ROLL/35.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/11.00 FT</fuomid>
+		<fname>0 ROLL/11.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/6.00 FT</fuomid>
+		<fname>0 ROLL/6.00 FT</fname>
+		<fbase_uom>FT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/60.00 MTS</fuomid>
+		<fname>0 ROLL/60.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>CARD</fuomid>
+		<fname>CARD</fname>
+		<fbase_uom>CARD</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 PC/0.00 1</fuomid>
+		<fname>0 PC/0.00 1</fname>
+		<fbase_uom>1</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 PC/0.00 PC</fuomid>
+		<fname>0 PC/0.00 PC</fname>
+		<fbase_uom>PC</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 SET/0.00 PACK</fuomid>
+		<fname>0 SET/0.00 PACK</fname>
+		<fbase_uom>PACK</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/75.00 MTS</fuomid>
+		<fname>0 ROLL/75.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>MTRS</fuomid>
+		<fname>MTRS</fname>
+		<fbase_uom>MTRS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/1000.00 M</fuomid>
+		<fname>0 ROLL/1000.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/75.00 MTR</fuomid>
+		<fname>0 ROLL/75.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PR</fuomid>
+		<fname>PR</fname>
+		<fbase_uom>PR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>CP</fuomid>
+		<fname>CP</fname>
+		<fbase_uom>CP</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 PACK/0.00 B</fuomid>
+		<fname>0 PACK/0.00 B</fname>
+		<fbase_uom>B</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>DOZ</fuomid>
+		<fname>DOZ</fname>
+		<fbase_uom>DOZ</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/61.00 MTS</fuomid>
+		<fname>0 ROLL/61.00 MTS</fname>
+		<fbase_uom>MTS</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PCR</fuomid>
+		<fname>PCR</fname>
+		<fbase_uom>PCR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>PINT</fuomid>
+		<fname>PINT</fname>
+		<fbase_uom>PINT</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom>
+		<fuomid>0 ROLL/35.00 MTR</fuomid>
+		<fname>0 ROLL/35.00 MTR</fname>
+		<fbase_uom>MTR</fbase_uom>
+		<fdecimal_qty>0</fdecimal_qty>
+	</mst_uom>
+	<mst_uom_detail>
+		<fuomid>PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PCS</fuomid>
+		<fuom>DZ</fuom>
+		<fquantity>2</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SHT</fuomid>
+		<fuom>SHT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SET</fuomid>
+		<fuom>SET</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PC</fuomid>
+		<fuom>PC</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>GROSS</fuomid>
+		<fuom>GROSS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 GROSS/144.00 P</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 GROSS/144.00 P</fuomid>
+		<fuom>GROSS</fuom>
+		<fquantity>144</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>UNIT</fuomid>
+		<fuom>UNIT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PRS</fuomid>
+		<fuom>PRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PACK</fuomid>
+		<fuom>PACK</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PACK/0.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PACK/0.00 PCS</fuomid>
+		<fuom>PACK</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>ROLL</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>CAN</fuomid>
+		<fuom>CAN</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>KL</fuomid>
+		<fuom>KL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>BOX</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/20.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/20.00 PCS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>20</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/20.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/20.00 KLS</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>20</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/20.00 KL</fuomid>
+		<fuom>KL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/20.00 KL</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>20</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/10.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/10.00 KLS</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>10</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/32.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/32.00 PCS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>32</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/50.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/50.00 PCS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>50</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/35.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 KLS/35.00 PCS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>35</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PAIR</fuomid>
+		<fuom>PAIR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>TUBE</fuomid>
+		<fuom>TUBE</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>TUBES</fuomid>
+		<fuom>TUBES</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LITER</fuomid>
+		<fuom>LITER</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PC.</fuomid>
+		<fuom>PC.</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LTR</fuomid>
+		<fuom>LTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>50</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>BOT</fuomid>
+		<fuom>BOT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SET.</fuomid>
+		<fuom>SET.</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PCS.</fuomid>
+		<fuom>PCS.</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LENGTH</fuomid>
+		<fuom>LENGTH</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/30.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/30.00 FT</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>30</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LGTH</fuomid>
+		<fuom>LGTH</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LENGTH/16.00 F</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LENGTH/16.00 F</fuomid>
+		<fuom>LENGTH</fuom>
+		<fquantity>16</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 SET/2.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 SET/2.00 PCS</fuomid>
+		<fuom>SET</fuom>
+		<fquantity>2</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PRS.</fuomid>
+		<fuom>PRS.</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 DOZ/12.00 PRS</fuomid>
+		<fuom>PRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 DOZ/12.00 PRS</fuomid>
+		<fuom>DOZ</fuom>
+		<fquantity>12</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>3PCS</fuomid>
+		<fuom>3PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>GAL</fuomid>
+		<fuom>GAL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>QRT</fuomid>
+		<fuom>QRT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>BAG</fuomid>
+		<fuom>BAG</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PAIL</fuomid>
+		<fuom>PAIL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SHTS</fuomid>
+		<fuom>SHTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/1.75 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/1.75 KLS</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>1.75</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>30</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/26.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/26.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>26</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/25.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/25.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>25</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SHEET</fuomid>
+		<fuom>SHEET</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PAIRS</fuomid>
+		<fuom>PAIRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SQM</fuomid>
+		<fuom>SQM</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LENGHT</fuomid>
+		<fuom>LENGHT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PACKS</fuomid>
+		<fuom>PACKS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LENGHT/0.00 LE</fuomid>
+		<fuom>LENGHT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/24.00 MTR</fuomid>
+		<fuom>MTRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/24.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>24</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>30</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LENGHT/4.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LENGHT/4.00 FT</fuomid>
+		<fuom>LENGHT</fuom>
+		<fquantity>4</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>50</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/100.00 MT</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/100.00 MT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>100</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/0.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/0.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>90</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>90</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/50.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>50</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/300.00 MT</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/300.00 MT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>300</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/150.00 MT</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/150.00 MT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>150</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/60.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/60.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>60</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/300.00 SQ</fuomid>
+		<fuom>SQFT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/300.00 SQ</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>300</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>75</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>BAGS</fuomid>
+		<fuom>BAGS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>DRUM</fuomid>
+		<fuom>DRUM</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/25.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/25.00 KLS</fuomid>
+		<fuom>CASE</fuom>
+		<fquantity>25</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/25.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/25.00 KLS</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>25</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/25.00 KL</fuomid>
+		<fuom>KL</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 BOX/25.00 KL</fuomid>
+		<fuom>BOX</fuom>
+		<fquantity>25</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>CASE</fuomid>
+		<fuom>CASE</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/45.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/45.00 KLS</fuomid>
+		<fuom>CASE</fuom>
+		<fquantity>45</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/40.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 CASE/40.00 KLS</fuomid>
+		<fuom>CASE</fuom>
+		<fquantity>40</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>KILOS</fuomid>
+		<fuom>KILOS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/40.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/40.00 KLS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>40</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/36.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/36.00 KLS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>36</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/25.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/25.00 KLS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>25</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/33.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/33.00 KLS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>33</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 KLS</fuomid>
+		<fuom>KLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 KLS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>35</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/30.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>30</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/15.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/15.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>15</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/200.00 MT</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/200.00 MT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>200</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>SHEETS</fuomid>
+		<fuom>SHEETS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LENTH</fuomid>
+		<fuom>LENTH</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>LGTHS</fuomid>
+		<fuom>LGTHS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>ROLLS</fuomid>
+		<fuom>ROLLS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>METER</fuomid>
+		<fuom>METER</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LGTH/20.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 LGTH/20.00 FT</fuomid>
+		<fuom>LGTH</fuom>
+		<fquantity>20</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PET</fuomid>
+		<fuom>PET</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PRS/0.00 PCS</fuomid>
+		<fuom>PCS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PRS/0.00 PCS</fuomid>
+		<fuom>PRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/90.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>90</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/55.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/55.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>55</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/40.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/40.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>40</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>35</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/11.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/11.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>11</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/6.00 FT</fuomid>
+		<fuom>FT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/6.00 FT</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>6</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/60.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/60.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>60</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>CARD</fuomid>
+		<fuom>CARD</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PC/0.00 1</fuomid>
+		<fuom>1</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PC/0.00 1</fuomid>
+		<fuom>PC</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PC/0.00 PC</fuomid>
+		<fuom>PC</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 SET/0.00 PACK</fuomid>
+		<fuom>PACK</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 SET/0.00 PACK</fuomid>
+		<fuom>SET</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>75</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>MTRS</fuomid>
+		<fuom>MTRS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/1000.00 M</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/1000.00 M</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>1000</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/75.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>75</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PR</fuomid>
+		<fuom>PR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>CP</fuomid>
+		<fuom>CP</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PACK/0.00 B</fuomid>
+		<fuom>B</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 PACK/0.00 B</fuomid>
+		<fuom>PACK</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>DOZ</fuomid>
+		<fuom>DOZ</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/61.00 MTS</fuomid>
+		<fuom>MTS</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/61.00 MTS</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>61</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PCR</fuomid>
+		<fuom>PCR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>PINT</fuomid>
+		<fuom>PINT</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 MTR</fuomid>
+		<fuom>MTR</fuom>
+		<fquantity>1</fquantity>
+	</mst_uom_detail>
+	<mst_uom_detail>
+		<fuomid>0 ROLL/35.00 MTR</fuomid>
+		<fuom>ROLL</fuom>
+		<fquantity>35</fquantity>
+	</mst_uom_detail>
+	<mst_price_level>
+		<fplevelid>X</fplevelid>
+		<fname>X</fname>
+	</mst_price_level>
+	<mst_price_level>
+		<fplevelid>D</fplevelid>
+		<fname>d</fname>
+	</mst_price_level>
+	<mst_price_level>
+		<fplevelid>R</fplevelid>
+		<fname>r</fname>
+	</mst_price_level>
+	<mst_price_level>
+		<fplevelid>A</fplevelid>
+		<fname>A</fname>
+	</mst_price_level>
+	<mst_credit>
+		<fcreditid>01</fcreditid>
+		<fname>Citibank Master</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>02</fcreditid>
+		<fname>Citibank VISA</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>03</fcreditid>
+		<fname>Equitable Master</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>04</fcreditid>
+		<fname>Equitable VISA</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>05</fcreditid>
+		<fname>AMEXCO</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>06</fcreditid>
+		<fname>Diners Club International</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>07</fcreditid>
+		<fname>BPI Card</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>08</fcreditid>
+		<fname>Metrobank Card</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>09</fcreditid>
+		<fname>Standard Chartered</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>10</fcreditid>
+		<fname>Unionbank Card</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>11</fcreditid>
+		<fname>HSBC Mastercard</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>12</fcreditid>
+		<fname>VISA Electron</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>13</fcreditid>
+		<fname>BPI Master</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>14</fcreditid>
+		<fname>VISA</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>15</fcreditid>
+		<fname>Mastercard</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>16</fcreditid>
+		<fname>Smart Money</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>17</fcreditid>
+		<fname>Metrobank Visa</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>18</fcreditid>
+		<fname>Unicard Gold</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>19</fcreditid>
+		<fname>JCB International</fname>
+	</mst_credit>
+	<mst_credit>
+		<fcreditid>20</fcreditid>
+		<fname>Mastercard Electron</fname>
+	</mst_credit>
+</root>
