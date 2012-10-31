@@ -95,7 +95,7 @@ class Admin extends MY_Controller {
 			 'title' => 'Email Title'
 			,'introduction' => 'Introduction'
 			,'html_message' => 'Email Message'
-			,'banner_url' => 'Banner URL'
+			//,'banner_url' => 'Banner URL'
 			,'dest_url' => 'Destination URL'
 			,'processors' => 'Payment Processors'
 			,'program_name' => 'Program Name'
@@ -104,7 +104,9 @@ class Admin extends MY_Controller {
 		
 		$ret = $this->_check_required($_POST, $requiredParams);
 		$error_code = $ret['err_cd'];
-
+		//echo "<pre>";
+		//print_r($_POST);
+		
 		if ($error_code == NO_ERROR) {
 			$result = $this->emails_model->getAllMMGEmails();
 			//print_r($result);
@@ -114,9 +116,9 @@ class Admin extends MY_Controller {
 				}
 				//echo "<pre>";
 				//print_r($mmgemails);
-				$this->email->from('vgod.vigoss@gmail.com', 'Ivan S.');
+				$this->email->from('vgod.vigoss@gmail.com', 'Ivan S. Richardson');
 				$this->email->to(null); 
-				$this->email->reply_to(null); 
+				$this->email->reply_to('vgod.vigoss@gmail.com'); 
 				$this->email->bcc(array('isbogs@gmail.com')); 
 				
 				$this->email->subject($this->input->post('title'));
@@ -129,7 +131,11 @@ class Admin extends MY_Controller {
 				$arr['html_message'] = $this->input->post('html_message');
 				//$message = $this->load->view('emailtemplate/superblast', $arr, true);
 				$message = $this->formatEmail($arr);
-				echo $message; die();
+				if ($this->input->post('submit') == 'Preview') {
+					echo $message; 
+					return;
+				}
+				
 				$this->email->message($message);	
 
 				if ($this->email->send()) {
@@ -180,14 +186,17 @@ class Admin extends MY_Controller {
 			$body.= "<div style='border-top: 1px solid #bacdd6; border-bottom: 1px solid #fff; margin: 20px 0;'></div><p>Program Name : <b>" . $data['program_name'] . "</b></p>";
 		//}
 		$body.= "<div style='border-top: 1px solid #bacdd6; border-bottom: 1px solid #fff; margin: 20px 0;'></div><table style='border:0;' cellpadding='0' cellspacing='0'>";
-		$body.= "<tr><td valign='middle'>";
-		//$body.= "<a href='" . $data->companyurl . "' style='color: #236f8e; word-wrap: break-word'>";
-		$body.= "<a href='" . $data['dest_url'] . "' style='color: #236f8e; word-wrap: break-word'>";
-		$body.= "<img src='" . $data['banner_url'] . "' style='margin-right: 10px; width:100px; height: 100px' border='0'/></a>";
-		$body.= "</td><td valign='middle' style='padding: 10px 0;'><div style='width: 320px'>";
-		$body.= "<a href='' style='color: #236f8e; word-wrap: break-word'></a><br/>";
+		if (isset($data['banner_url']) && $data['banner_url'] != '') {
+			$body.= "<tr><td valign='middle'>";
+			//$body.= "<a href='" . $data->companyurl . "' style='color: #236f8e; word-wrap: break-word'>";
+			$body.= "<a href='" . $data['dest_url'] . "' style='color: #236f8e; word-wrap: break-word'>";
+			$body.= "<img src='" . $data['banner_url'] . "' style='margin-right: 10px; width:100px; height: 100px' border='0'/></a>";
+			$body.= "</td>";
+		}
+		$body.= "<td valign='middle'><div style='width: 320px'>";
+		$body.= "<a href='' style='color: #236f8e; word-wrap: break-word'></a>";
 		$body.= "<p>Accepts " . $this->styleProcessors($data['processors']) . "<br/>";
-		$body.= $data['description'] . "</p>";
+		$body.= $this->styleProcessors($data['description']) . "</p>";
 		$body.= "</div></td></tr>";
 		$body.= "<tr><td colspan='2'><br/>";
 		$body.="<div style='border-top: 1px solid #bacdd6; border-bottom: 1px solid #fff;'>";
@@ -196,11 +205,12 @@ class Admin extends MY_Controller {
 		
 		$body.="<h2> <span style='font-size:14px;'><span style='color:#ff0000;'><strong>JOIN HERE </strong></span>&nbsp;: <a href='" . $data['dest_url'] . "'>" . $data['dest_url'] . "&nbsp;</a></span></h2></div></td></tr>";
 		$body.= "</table><div style='border-top: 1px solid #bacdd6; border-bottom: 1px solid #fff; margin: 20px 0;'></div>";
-		$body.= "<p>Thanks,<br/>The Balluun Team</p></td><td valign='top'><div style='width: 178px; background: #d1d4d9; border-radius: 5px; margin: 20px 0 0 20px; padding:10px 0 10px;'>";
+		$body.= "<p><font face= 'Courier New'><em>To your success</em>,</font><br/><b><font face= 'Courier New'>Ivan S. Richardson</font></b></p></td><td valign='top'><div style='width: 178px; background: #d1d4d9; border-radius: 5px; margin: 20px 0 0 20px; padding:10px 0 10px;'>";
 		$body.= "<h2 style='font-size: 12px; margin: 10px 10px 20px 44px;'>Happy Earnings!</h2>";
 		$body.= "<div style='background: #1E3E96; margin: 10px; border-radius: 5px;'><a href='" . $data['dest_url'] . "' style='display: block; padding: 10px; color: #fff; font-weight: bold; text-align: center; text-decoration: none;'>Join Here</a></div></div></td></tr></table>";
 
-		$footer = "Copyright ".date('Y').", Balluun Inc. - All rights reserved. Balluun is located at 950 Tower Lane, Suite 1775, Foster City, CA 94404, USA. <br />If you do not wish to receive further email notification of this kind, please <a href='http://google.com' style='color: #236f8e;'>adjust your message settings</a>. For general inquiries, please contact <a href='mailto:support@balluun.com' style='color: #236f8e;'>support@balluun.com</a>.";
+		//$footer = "Copyright ".date('Y').", Balluun Inc. - All rights reserved. Balluun is located at 950 Tower Lane, Suite 1775, Foster City, CA 94404, USA. <br />If you do not wish to receive further email notification of this kind, please <a href='http://google.com' style='color: #236f8e;'>adjust your message settings</a>. For general inquiries, please contact <a href='mailto:support@balluun.com' style='color: #236f8e;'>support@balluun.com</a>.";
+		$footer = "This message is not a spam. You are receiving new program updates and alerts since you are part of my mailing list. If you do not wish to receive email notification of this kind, please reply to this email and ask to be removed. For general inquiries or if you have a program that you want me to promote, please feel free to contact <a href='mailto:vgod.vigoss@gmail.com' style='color: #236f8e;'>vgod.vigoss@gmail.com</a>.";
 		
 		$body.= $this->endHTML($footer);
 		
@@ -208,12 +218,12 @@ class Admin extends MY_Controller {
 	}
 	
 	function styleProcessors($processors = '') {
-		$proc = strtolower($processors);
-		$proc = str_replace("payza", "<em><span style='color:#008000;'><strong>Payza</strong></span></em>", $proc);
-		$proc = str_replace("stp", "<em><span style='color:#000080;'><strong>STP</strong></span></em>", $proc);
-		$proc = str_replace("lr", "<em><span style='color:#ff0000;'><strong>LR</strong></span></em>", $proc);
-		$proc = str_replace("pm", "<em><span style='color:#b22222;'><strong>PM</strong></span></em>", $proc);
-		$proc = str_replace("egopay", "<em><span style='color:#ff8c00;'><strong>Egopay</strong></span></em>", $proc);
+		$proc = $processors;
+		$proc = str_ireplace("payza", "<em><span style='color:#008000;'><strong>Payza</strong></span></em>", $proc);
+		$proc = str_ireplace("stp", "<em><span style='color:#000080;'><strong>STP</strong></span></em>", $proc);
+		$proc = str_ireplace("lr", "<em><span style='color:#ff0000;'><strong>LR</strong></span></em>", $proc);
+		$proc = str_ireplace("pm", "<em><span style='color:#b22222;'><strong>PM</strong></span></em>", $proc);
+		$proc = str_ireplace("egopay", "<em><span style='color:#ff8c00;'><strong>Egopay</strong></span></em>", $proc);
 		
 		return $proc;
 	}
