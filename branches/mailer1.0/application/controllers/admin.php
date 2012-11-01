@@ -88,7 +88,7 @@ class Admin extends MY_Controller {
 	}
 	
 	function superblast() {
-	
+		set_time_limit(0);
 		$error_message = '';
 		
 		$requiredParams = array(
