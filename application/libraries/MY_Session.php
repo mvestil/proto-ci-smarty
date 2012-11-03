@@ -13,7 +13,7 @@ class MY_Session extends CI_Session {
 	}
 	
 	function unsetAdminInfo() {
-		$this->session->sess_destroy();
+		$this->sess_destroy();
 	}
 	
 	function getAdminInfo() {

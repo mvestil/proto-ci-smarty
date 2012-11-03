@@ -7,16 +7,23 @@ class MY_Controller extends CI_Controller {
 
 	protected $authenticated = false;
 	
-	function __construct($auth = true) {
+	function __construct($redirect = true) {
 		parent::__construct();
 		//echo "<pre>";
-		if ($auth) {
-			$this->_authenticate();
+		$this->_authenticate();
+		
+		if ($this->authenticated) {
+			
+		} else {
+			if ($redirect) {
+				redirect('/login');
+			}
 		}
 	}
 	
 	function _base_check() {
 		return $this->authenticated;
+			
 	}
 	
 	function _authenticate() {
