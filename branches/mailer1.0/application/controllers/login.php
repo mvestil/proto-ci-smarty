@@ -3,7 +3,7 @@
 class Login extends MY_Controller {
 
 	function __construct() {
-		parent::__construct();
+		parent::__construct(false);
 		$this->load->model('users_model');
 	}
 	

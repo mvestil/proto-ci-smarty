@@ -12,150 +12,159 @@ class Admin extends MY_Controller {
 	}
 	
 	function index() {
-		$result = $this->subscribers_model->getAllSubscribers();
-		$this->load->view('admin/index', $result);
+		if ($this->_base_check()) {
+			$result = $this->subscribers_model->getAllSubscribers();
+			$this->load->view('admin/index', $result);
+		}
 	}
 	
 	function preblast() {
-		$result = $this->subscriptions_model->getAllSubscriptions();
-		$this->load->view('admin/preblast', $result);
+		if ($this->_base_check()) {
+			$result = $this->subscriptions_model->getAllSubscriptions();
+			$this->load->view('admin/preblast', $result);
+		}
 	}
 	
 	function blast() {
-		$error_message = '';
-		
-		$requiredParams = array(
-			 'title' => 'Email Title'
-			,'message' => 'Email Message'
-		);
-		
-		$ret = $this->_check_required($_POST, $requiredParams);
-		$error_code = $ret['err_cd'];
+		if ($this->_base_check()) {
+			$error_message = '';
+			
+			$requiredParams = array(
+				 'title' => 'Email Title'
+				,'message' => 'Email Message'
+			);
+			
+			$ret = $this->_check_required($_POST, $requiredParams);
+			$error_code = $ret['err_cd'];
 
-		if ($error_code == NO_ERROR) {
-			$sub_types = $this->input->post('subscription_type');
-			$sub_ids = '';
-			
-			if (is_array($sub_types) && count($sub_types) > 0) {
-				foreach ($sub_types as $row) {
-					if ($sub_ids == '') {
-						$sub_ids .= $row;
-					} else {
-						$sub_ids .= ', ' . $row;
-					}
-				}
-			}
-			$result = $this->subscribers_model->getBySubscription($sub_ids);
-			
-			$success_count = 0;
-			$fail_count = 0;
-			if ($result['count'] > 0) {
-				$subscribers = $result['data'];
+			if ($error_code == NO_ERROR) {
+				$sub_types = $this->input->post('subscription_type');
+				$sub_ids = '';
 				
-				foreach($subscribers as $row) {
-					$this->email->from('no_reply@gmail.com', 'Anonymous');
-					$this->email->to($row['email_address']); 
-					$this->email->reply_to('no_reply@gmail.com'); 
-
-					$this->email->subject($this->input->post('title'));
-					$this->email->message($this->input->post('message'));	
-
-					if ($this->email->send()) {
-						$success_count++;
-					} else {
-						$fail_count++;
+				if (is_array($sub_types) && count($sub_types) > 0) {
+					foreach ($sub_types as $row) {
+						if ($sub_ids == '') {
+							$sub_ids .= $row;
+						} else {
+							$sub_ids .= ', ' . $row;
+						}
 					}
-
-					//echo $this->email->print_debugger();
 				}
+				$result = $this->subscribers_model->getBySubscription($sub_ids);
+				
+				$success_count = 0;
+				$fail_count = 0;
+				if ($result['count'] > 0) {
+					$subscribers = $result['data'];
+					
+					foreach($subscribers as $row) {
+						$this->email->from('no_reply@gmail.com', 'Anonymous');
+						$this->email->to($row['email_address']); 
+						$this->email->reply_to('no_reply@gmail.com'); 
+
+						$this->email->subject($this->input->post('title'));
+						$this->email->message($this->input->post('message'));	
+
+						if ($this->email->send()) {
+							$success_count++;
+						} else {
+							$fail_count++;
+						}
+
+						//echo $this->email->print_debugger();
+					}
+				}
+				
+				echo "Success : " . $success_count . "<br/>";
+				echo "Fail : " . $fail_count;
+				
+			} else {
+				$error_message = "Missing Parameter";
 			}
 			
-			echo "Success : " . $success_count . "<br/>";
-			echo "Fail : " . $fail_count;
-			
-		} else {
-			$error_message = "Missing Parameter";
+			if ($error_message != '') {
+				show_error($error_message);
+			}
 		}
-		
-		if ($error_message != '') {
-			show_error($error_message);
-		}
-		
 	}
 	
 	function superpreblast() {
-		$this->load->view('admin/superpreblast');
+		if ($this->_base_check()) {
+			$this->load->view('admin/superpreblast');
+		}
 	}
 	
 	function superblast() {
-		set_time_limit(0);
-		$error_message = '';
-		
-		$requiredParams = array(
-			 'title' => 'Email Title'
-			,'introduction' => 'Introduction'
-			,'html_message' => 'Email Message'
-			//,'banner_url' => 'Banner URL'
-			,'dest_url' => 'Destination URL'
-			,'processors' => 'Payment Processors'
-			,'program_name' => 'Program Name'
-			,'description' => 'Description'
-		);
-		
-		$ret = $this->_check_required($_POST, $requiredParams);
-		$error_code = $ret['err_cd'];
-		//echo "<pre>";
-		//print_r($_POST);
-		
-		if ($error_code == NO_ERROR) {
-			$result = $this->emails_model->getAllMMGEmails();
-			//print_r($result);
-			if ($result['count'] > 0) {
-				foreach ($result['data'] as $row) {
-					$mmgemails[] = $row['email_address'];
-				}
-				//echo "<pre>";
-				//print_r($mmgemails);
-				$this->email->from('vgod.vigoss@gmail.com', 'Ivan S. Richardson');
-				$this->email->to(null); 
-				$this->email->reply_to('vgod.vigoss@gmail.com'); 
-				$this->email->bcc(array('isbogs@gmail.com')); 
-				
-				$this->email->subject($this->input->post('title'));
-				$arr['introduction'] = $this->input->post('introduction');
-				$arr['processors'] = $this->input->post('processors');
-				$arr['program_name'] = $this->input->post('program_name');
-				$arr['banner_url'] = $this->input->post('banner_url');
-				$arr['dest_url'] = $this->input->post('dest_url');
-				$arr['description'] = $this->input->post('description');
-				$arr['html_message'] = $this->input->post('html_message');
-				//$message = $this->load->view('emailtemplate/superblast', $arr, true);
-				$message = $this->formatEmail($arr);
-				if ($this->input->post('submit') == 'Preview') {
-					echo $message; 
-					return;
-				}
-				
-				$this->email->message($message);	
+		if ($this->_base_check()) {
+			set_time_limit(0);
+			$error_message = '';
+			
+			$requiredParams = array(
+				 'title' => 'Email Title'
+				,'introduction' => 'Introduction'
+				,'html_message' => 'Email Message'
+				//,'banner_url' => 'Banner URL'
+				,'dest_url' => 'Destination URL'
+				,'processors' => 'Payment Processors'
+				,'program_name' => 'Program Name'
+				,'description' => 'Description'
+			);
+			
+			$ret = $this->_check_required($_POST, $requiredParams);
+			$error_code = $ret['err_cd'];
+			//echo "<pre>";
+			//print_r($_POST);
+			
+			if ($error_code == NO_ERROR) {
+				$result = $this->emails_model->getAllMMGEmails();
+				//print_r($result);
+				if ($result['count'] > 0) {
+					foreach ($result['data'] as $row) {
+						$mmgemails[] = $row['email_address'];
+					}
+					//echo "<pre>";
+					//print_r($mmgemails);
+					$this->email->from('vgod.vigoss@gmail.com', 'Ivan S. Richardson');
+					$this->email->to(null); 
+					$this->email->reply_to('vgod.vigoss@gmail.com'); 
+					$this->email->bcc(array('isbogs@gmail.com')); 
+					
+					$this->email->subject($this->input->post('title'));
+					$arr['introduction'] = $this->input->post('introduction');
+					$arr['processors'] = $this->input->post('processors');
+					$arr['program_name'] = $this->input->post('program_name');
+					$arr['banner_url'] = $this->input->post('banner_url');
+					$arr['dest_url'] = $this->input->post('dest_url');
+					$arr['description'] = $this->input->post('description');
+					$arr['html_message'] = $this->input->post('html_message');
+					//$message = $this->load->view('emailtemplate/superblast', $arr, true);
+					$message = $this->_formatEmail($arr);
+					if ($this->input->post('submit') == 'Preview') {
+						echo $message; 
+						return;
+					}
+					
+					$this->email->message($message);	
 
-				if ($this->email->send()) {
-					echo "<a href='/admin/'>Go back to home page</a>";
-				} else {
-					echo "Error on sending email.";
+					if ($this->email->send()) {
+						echo "<a href='/admin/'>Go back to home page</a>";
+					} else {
+						echo "Error on sending email.";
+					}
+					
+					echo $this->email->print_debugger(); 
 				}
-				
-				echo $this->email->print_debugger(); 
+			} else {
+				$error_message = "Missing Parameter";
 			}
-		} else {
-			$error_message = "Missing Parameter";
-		}
-		
-		if ($error_message != '') {
-			show_error($error_message);
+			
+			if ($error_message != '') {
+				show_error($error_message);
+			}
 		}
 	}
 	
-	function startHTML($data) {
+	function _startHTML($data) {
 		$body = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>";
 		$body.= "<html>";
 		$body.= "<head><meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1; content-transfer-encoding: quoted-printable'/></head>";
@@ -171,15 +180,15 @@ class Admin extends MY_Controller {
 		return $body;
 	}
 	
-	function endHTML($footer) {
+	function _endHTML($footer) {
 		$body = "</div><p style='width: 620px; font-family: Arial, sans-serif; font-size: 11px; color: #91a7b0; margin: 10px 0;'>";
 		$body.= $footer;
 		$body.= "</p></body></html>";
 		return $body;
 	}
 	
-	function formatEmail($data) {
-		$body = $this->startHTML($data);	
+	function _formatEmail($data) {
+		$body = $this->_startHTML($data);	
 		$body.= "<table style='border:0;' cellpadding='0' cellspacing='0'><tr><td valign='top'><p>Hi folks,</p>";
 		$body.= "<p>" . $data['introduction'] . "</p>";
 		//if (strlen($data->description) > 0) {
@@ -212,7 +221,7 @@ class Admin extends MY_Controller {
 		//$footer = "Copyright ".date('Y').", Balluun Inc. - All rights reserved. Balluun is located at 950 Tower Lane, Suite 1775, Foster City, CA 94404, USA. <br />If you do not wish to receive further email notification of this kind, please <a href='http://google.com' style='color: #236f8e;'>adjust your message settings</a>. For general inquiries, please contact <a href='mailto:support@balluun.com' style='color: #236f8e;'>support@balluun.com</a>.";
 		$footer = "This message is not a spam. You are receiving new program updates and alerts since you are part of my mailing list. If you do not wish to receive email notification of this kind, please reply to this email and ask to be removed. For general inquiries or if you have a program that you want me to promote, please feel free to contact <a href='mailto:vgod.vigoss@gmail.com' style='color: #236f8e;'>vgod.vigoss@gmail.com</a>.";
 		
-		$body.= $this->endHTML($footer);
+		$body.= $this->_endHTML($footer);
 		
 		return $body;
 	}
