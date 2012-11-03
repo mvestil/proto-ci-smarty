@@ -32,22 +32,27 @@ class Bogs extends MY_Controller {
 				foreach ($result['data'] as $row) {
 					$mmgemails[] = $row['email_address'];
 				}
-				//echo "<pre>";
-				//print_r($mmgemails);
-				//die();
-				$this->email->from('neilrowd.kennyster@gmail.com', 'Neilrowd Marketing');
+				
+				$this->email->from('neilrowd.kennyster@gmail.com', 'Neilrowd Kennyster');
 				$this->email->to(array()); 
 				$this->email->reply_to('neilrowd.kennyster@gmail.com');
 				$this->email->bcc($mmgemails); 
-				//$this->email->bcc(array('isbogs@gmail.com', 'dadingdodo@gmail.com', 'lendltae123@gmail.com')); 
 				
 				$this->email->subject($this->input->post('title'));
 				$this->email->message($this->input->post('html_message'));	
 
-				//echo $this->input->post('html_message');
+				if (isset($_POST['submit'])) {
+					if ($_POST['submit'] == 'Preview') {
+						echo $this->input->post('html_message');
+						die();
+					} else if ($_POST['submit'] == 'Test') {
+						$this->email->bcc('isbogs@gmail.com');
+					}
+				}
 				
+				//die();
 				if ($this->email->send()) {
-					echo "<a href='/admin/'>Go back to home page</a>";
+					//echo "<a href='/admin/'>Go back to home page</a>";
 				} else {
 					echo "Error on sending email.";
 				}
