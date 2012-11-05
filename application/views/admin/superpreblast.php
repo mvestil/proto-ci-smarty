@@ -88,7 +88,8 @@
 						</tr>
 						<tr>
 							<td align="center" colspan="2">
-							<input type="submit" value="Submit" />
+							<input name="submit" type="submit" value="Submit" />
+							<input name="submit" type="submit" value="Preview" />
 							</td>
 						</tr>
 					</table>
