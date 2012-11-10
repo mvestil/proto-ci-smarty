@@ -42,11 +42,28 @@ class Bogs extends MY_Controller {
 					$this->email->bcc($mmgemails); 
 					
 					$this->email->subject($this->input->post('title'));
-					$this->email->message($this->input->post('html_message'));	
+					$message = $this->input->post('html_message');
+					// add footer
+					$message .= "<p>
+							=================================================</p>
+						<div>
+							This message is not a spam. I have no intention to spam&nbsp;anyone.</div>
+						<div>
+							You are receiving new program&nbsp;updates and alerts since you&nbsp;</div>
+						<div>
+							were part of my mailing list.&nbsp;If you do not wish to receive email</div>
+						<div>
+							notification of this kind,&nbsp;please reply to this email and ask to be removed.</div>
+						<div>
+							&nbsp;</div>
+						<div>
+							=================================================</div>";
+							
+					$this->email->message($message);	
 
 					if (isset($_POST['submit'])) {
 						if ($_POST['submit'] == 'Preview') {
-							echo $this->input->post('html_message');
+							echo $message;
 							die();
 						} else if ($_POST['submit'] == 'Test') {
 							$this->email->bcc('isbogs@gmail.com');
