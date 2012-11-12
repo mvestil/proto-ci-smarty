@@ -7,7 +7,7 @@ class Emails_Model extends MY_Model {
 	}
 	
 	function getAllMMGEmails() {
-		$query = "select * from mmgemails group by email_address";
+		$query = "select * from mmgemails where status = 1 group by email_address";
 		$result = $this->db->query($query);
 		return $this->processResultList($result);
 	}
