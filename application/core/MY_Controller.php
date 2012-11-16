@@ -28,7 +28,7 @@ class MY_Controller extends CI_Controller {
 	
 	function _authenticate() {
 		$info = $this->session->getAdminInfo();
-		if ($info) {
+		if (!empty($info)) {
 			$this->authenticated = true;
 		}
 	}
