@@ -202,15 +202,12 @@ function checkform() {
 	  <td colspan="5" align="center" class="font_13 pad_20_t">
 	   <table cellpadding="0" cellspacing="0">
 		<tr>
-		 <td colspan="2" class="pad_20_t" align="center"><a href="#"><div class="edit"></div></a></td>
+		 <td colspan="2" class="pad_20_t" align="center">
+		 <input value="" style="height:36px; width:116px;" class="edit" type="submit"></td>
 		</tr>
 	   </table>
 	  </td>
 	 </tr>
-	 <tr>
- <td>&nbsp;</td>
- <td><input type=submit value="Change Account data" class=sbmt></td>
-</tr>
 	</table>
    </div>
   </td>

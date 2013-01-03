@@ -62,7 +62,13 @@ function checklogin() {
               <tr>
                <td align="center">
 			   <a href="#" onclick="return checklogin()">
-			   <div class="signin_btn" style="float:left;"></div></a></td>
+			   <div class="clear" align="center">
+				 <table cellpadding="0" cellspacing="0">
+				  <tr>
+				   <td align="center"><input value="" style="height:32px; width:79px;" class="signin_btn" type="submit"></td>
+				  </tr>
+				 </table>
+				</div>
               </tr>
              </table>
             </div>
