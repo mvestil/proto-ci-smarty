@@ -43,6 +43,22 @@ XX% daily for X weeks - total XX% guaranteed
 </a>
 </textarea><br><br><br>
 
+<table cellpadding="0" cellspacing="0" width="100%" height="750">
+         <tr>
+          <td valign="top" align="left">
+           <div class="clear h_30 bgcolor_ggr pad_10_l page" align="left">REFERRAL LINKS</div>
+           <div class="clear font_13" align="center">
+            <table cellpadding="0" cellspacing="0">
+             <tr>
+	          <td class="f_13 color_1 pad_10">test#4</td>
+             </tr>
+            </table>
+		   </div>
+          </td>
+         </tr>
+        </table>
+
+
 </td>
 
 {include file="footer.tpl"}
