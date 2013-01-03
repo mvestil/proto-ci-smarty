@@ -114,8 +114,8 @@ img{border:0px; padding:0; margin:0;}
 	.edit_account:hover{background:url(../images/edit_account_b.jpg) top right no-repeat;}
 .logout_nav{background:url(../images/logout_a.jpg) top right no-repeat; width:194px; height:31px;}
 	.logout_nav:hover{background:url(../images/logout_b.jpg) top right no-repeat;}
-.signin_btn{background:url(../images/sign_in_a.png) top left no-repeat; height:30px; width:75px;}
-	.signin_btn:hover{background:url(../images/sign_in_b.png) top right no-repeat;}
+.signin_btn{background:url(../images/sign_in_b.png) top left no-repeat; height:32px; width:79px;}
+	.signin_btn:hover{background:url(../images/sign_in_a.png) top left no-repeat; height:30px; width:79px;}
 /*UPPER_TAB*/
 .home{background:url(../images/home_a.jpg) top right no-repeat; width:112px; height:55px;}
 	.home:hover{background:url(../images/home_b.jpg) top right no-repeat;}
@@ -143,18 +143,16 @@ img{border:0px; padding:0; margin:0;}
 .btm_faq{background:url(../images/btm_faq_a.jpg) top right no-repeat; width:66px; height:30px;}
 	.btm_faq:hover{background:url(../images/btm_faq_b.jpg) top right no-repeat;}
 /*BUTTONS*/
-.go{background:url(../images/go_a.png) top right no-repeat; width:99px; height:36px;}
-	.go:hover{background:url(../images/go_b.png) top right no-repeat;}
-.go{background:url(../images/go_a.png) top right no-repeat; width:99px; height:36px;}
-	.go:hover{background:url(../images/go_b.png) top right no-repeat;}
-.request{background:url(../images/request_a.png) top right no-repeat; width:99px; height:36px;}
-	.request:hover{background:url(../images/request_b.png) top right no-repeat;}
-.spend{background:url(../images/spend_a.png) top right no-repeat; width:99px; height:36px;}
-	.spend:hover{background:url(../images/spend_b.png) top right no-repeat;}
-.read{background:url(../images/read_a.png) top right no-repeat; width:99px; height:36px;}
-	.read:hover{background:url(../images/read_b.png) top right no-repeat;}
-.edit{background:url(../images/edit_account_a.png) top right no-repeat; width:111px; height:36px;}
-	.edit:hover{background:url(../images/edit_account_b.png) top right no-repeat;}
+.go{background:url(../images/go_b.png) top right no-repeat; width:116px; height:38px;}
+	.go:hover{background:url(../images/go_a.png) top right no-repeat;}
+.request{background:url(../images/request_b.png) top right no-repeat; width:116px; height:38px;}
+	.request:hover{background:url(../images/request_a.png) top right no-repeat;}
+.spend{background:url(../images/spend_b.png) top right no-repeat; width:116px; height:38px;}
+	.spend:hover{background:url(../images/spend_a.png) top right no-repeat;}
+.read{background:url(../images/read_b.png) top right no-repeat; width:116px; height:38px;}
+	.read:hover{background:url(../images/read_a.png) top right no-repeat;}
+.edit{background:url(../images/edit_account_b.png) top right no-repeat; width:116px; height:38px;}
+	.edit:hover{background:url(../images/edit_account_a.png) top right no-repeat;}
 /*PAGE*/
 .page{font-family:Tahoma, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#FFFFFF; vertical-align:middle; padding:5px 0px 5px 5px;}
 .clear{clear:both;}
