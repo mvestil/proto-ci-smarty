@@ -10,12 +10,10 @@
         <tr>
          <td id="btm_nav" align="center">
           <div align="center">
-           <div class="float_l pad_10_r"><a href="index.html"><div class="btm_home" style="float:left;"></div></a></div>
-           <div class="float_l pad_10_r"><a href="main_nav_terms.html"><div class="btm_terms" style="float:left;"></div></a></div>
-           <div class="float_l pad_10_r"><a href="main_nav_monitors.html"><div class="btm_monitors" style="float:left;"></div></a></div>
-           <div class="float_l pad_10_r"><a href="main_nav_news.html"><div class="btm_news" style="float:left;"></div></a></div>
-           <div class="float_l pad_10_r"><a href="main_nav_contact_us.html"><div class="btm_contact_us" style="float:left;"></div></a></div>
-           <div class="float_l"><a href="main_nav_faq.html"><div class="btm_faq" style="float:left;"></div></a></div>
+           <div class="float_l pad_10_r"><a href=?a=home><div class="btm_home" style="float:left;"></div></a></div>
+           <div class="float_l pad_10_r"><a href=?a=rules><div class="btm_terms" style="float:left;"></div></a></div>
+           <div class="float_l pad_10_r"><a href=?a=support><div class="btm_contact_us" style="float:left;"></div></a></div>
+           <div class="float_l"><a href=?a=faq><div class="btm_faq" style="float:left;"></div></a></div>
           </div>
          </td>
         </tr>
