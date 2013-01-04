@@ -8,8 +8,19 @@
 	   <div class="clear font_13" align="center">
 		<table cellpadding="0" cellspacing="0">
 		 <tr>
-		  <td class="f_13 color_1 pad_10">Elite Prime Finance is a simplified investment program designed for people with no knowledge about highly profitable businesses as we take care of the investment procedures, paper work and legal concerns and share the profits with you in real time via this site. The most profitable ventures of the century are related to oil trading, stocks trading and Forex. We have a team of skilled professionals investing in all these fields in a daily basis to generate the profits and benefits offered by FX7 Pro
-as these markets are not for everyone, it takes years of experience to understand all of its nuances and individualities and actually know how to make big money with them. FX7 Pro works as the link between these professionals and investors like you. <br /><br />Elite Prime Finance principles are to ensure the maximum profit to its investors and still offer a very low capital loss risk in a safe environment to prevent them from both financial and moral losses. Opportunities come and go and FX7 Pro's management team decided not to miss them anymore and the result was nothing but a lifetime revenue opportunity that we are now sharing with the general public like you. <br /><br />Elite Prime Finance is a global community operating in the entire world and we strongly believe in the success of team work as it has already proved itself to be the best way to run any business. You are invited to take part in this team of successful people looking forward to their financial wealth, every day spent waiting for a life change to come is a day of missed profits, stop waiting and start acting today.
+		  <td class="f_13 color_1 pad_10">Elite Prime Finance is a global team working as investment broker that aims to help people with
+					less or no knowledge about highly profitable businesses such as forex, stocks trading and other financial ventures. 
+					<br>
+					These ventures require expertise and years of experience to fully understand the business know how on how to earn big money. 
+					<br>
+					This is the reason why we exist, to help you earn money in a very easy way. All you need is join our community and all the rest will be handled by our experts.
+					<br>
+					We have a team of financial experts that will do all of the investment procedures, 
+					paper work and legal concerns and share the profits with you in real time through this site. 
+					<br><br>
+					Join now and be part of our growing community of successful individuals and become financially independent at very short time.
+					<br><br>
+					Don't waste time, join us today!
 		  </td>
 		 </tr>
 		 <tr>

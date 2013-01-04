@@ -13,10 +13,6 @@
      <table cellpadding="0" cellspacing="0" width="998">
       <tr>
        <td align="left" valign="middle" class="h_85 w_237"><a href="index.html"><img src="images/logo.png" width="237" height="57" /></a></td>
-       <td align="right">
-        <div class="p_white txt_hdr">August 31, 2012  Time:09:30:02 Tue</div>
-        <div class="clear p_white txt_hdr pad_5_t">Welcome Money Pacquiao!</div>
-       </td>
       </tr>
      </table>
     </div>

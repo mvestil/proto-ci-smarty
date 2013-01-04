@@ -9,7 +9,7 @@
 	 <tr>
 	  <td class="f_13 color_1 pad_10_b pad_20_b">
 	   <p class="blck"><b>GENERAL QUESTIONS:</b></p>
-	   <p><b>Who can participate in your program?</b><br />We accept members from all over the world, irrespective of their citizenship. Our services are available to any individual or legal entity in the world.</p>
+	   <p><b>Who can join in your program?</b><br />We accept members from all over the world, irrespective of their citizenship. Our services are available to any individual or legal entity in the world.</p>
 	   <p><b>Do you pay on holidays/weekends?</b><br />Yes, we pay 7 days per week. </p>
 	   <p><b>Are you protected from DDoS attacks?</b><br />Yes, we have highest level DDoS attack Protection by Blockdos.</p>
 	   <p><b>Do you have SSL encryption?</b><br />Yes, we have SSL certificate issued by COMODO.<br /><br /></p>
@@ -21,10 +21,10 @@
 	   <p class="blck"><b>DEPOSIT QUESTIONS</b></p>
 	   <p><b>Which e-currencies do you accept?</b><br />We accept Liberty reserve, Perfect Money and Payza.</p>
 	   <p><b>We accept Liberty reserve, Perfect Money and Payza.</b><br />The minimum amount to invest is $ 5 and the maximum is $ 10,000. </p>
-	   <p><b>How can I make a spend?</b><br />To make a spend you must first become a member of FX7 Pro. Once you are signed up, you can make your first spend. All spends must be made through the Member Area.</p>
+	   <p><b>How can I make a spend?</b><br />To make a spend you must first become a member of Elite Prime Finance. Once you are signed up, you can make your first spend. All spends must be made through the Member Area.</p>
 	   <p><b>How long does it take for my deposit to be added to my account?</b><br />Your account will be updated as fast, as you deposit. </p>
-	   <p><b>Does a daily profit paid directly to my currency account?</b><br />No, profits are gathered on your FX7 Pro account and you can withdraw them anytime. </p>
-	   <p><b>Can I do a direct deposit from my account balance?</b><br />Yes! To make a deposit from your FX7 Pro account balance simply login into your members account and click on Make Deposit and select the Deposit from Account Balance Radio button.<br /><br /></p>
+	   <p><b>Does a daily profit paid directly to my currency account?</b><br />No, profits are gathered on your Elite Prime Finance account and you can withdraw them anytime. </p>
+	   <p><b>Can I do a direct deposit from my account balance?</b><br />Yes! To make a deposit from your Elite Prime Finance account balance simply login into your members account and click on Make Deposit and select the Deposit from Account Balance Radio button.<br /><br /></p>
 	   <p class="blck"><b>WITHDRAW QUESTIONS</b></p>
 	   <p><b>Do you return Principal at the end of terms?</b><br />NO! Principal amount is included in the profits you receive.</p>
 	   <p><b>How can I withdraw funds?</b><br />Login to your account using your username and password and check the Withdraw section. </p>
@@ -32,10 +32,10 @@
 	   <p><b>After I make a withdrawal request, when will the funds be available on my e-currency account?</b><br />We reserve up to 24 hours to process any withdrawal request. However, usually the withdrawal requests are completed within just a few hours.</p>
 	   <p><b>Is it possible to deposit money via one payment provider and withdraw via another?</b><br />No, it's not possible. We do not provide e-currency exchange services.<br /><br /> </p>
 	   <p class="blck"><b>REFERRAL PROGRAM</b></p>
-	   <p><b>What referral commission do you offer?</b><br />We pay a 7% referral commission on the first level, 2% on the second level and 1% on the third. </p>
+	   <p><b>What referral commission do you offer?</b><br />We pay a 5% referral commission on the first level, 3% on the second level and 1% on the third. </p>
 	   <p><b>Will I get my referral bonus for every additional deposit my referrals make?</b><br />Yes, you will get referral bonus on EVERY deposit your referrals make.</p>
 	   <p><b>Do I need to have an active deposit to participate in our Referral Program?</b><br />Yes. Only members with an active deposit will receive referral commissions.</p>
-	   <p><b>Do you have banners to promote FX7 Pro?</b><br />Yes, you can find them under "Referral Links" inside members' area.</p>
+	   <p><b>Do you have banners to promote Elite Prime Finance?</b><br />Yes, you can find them under "Referral Links" inside members' area.</p>
 	   <p><b>Can I refer myself?</b><br />No, you can't. We do not allow multiple accounts and will take action against anyone attempting to cheat our system.</p>
 	  </td>
 	 </tr>
