@@ -14,7 +14,7 @@
 	<img src="{$settings.site_url}/images/banners/epf2.gif" width=125 height=125 />
 </a>
 <br><br>
-<textarea disabled class=inpts cols=75 rows=3>
+<textarea readonly class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
 <img src="{$settings.site_url}/images/banners/epf2.gif" width=125 height=125 />
 </a>
@@ -29,7 +29,7 @@
 </a>
 
 <br><br>
-<textarea disabled class=inpts cols=75 rows=3>
+<textarea readonly class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
 <img src="{$settings.site_url}/images/banners/epf8.gif" width=468 height=60 />
 </a>
@@ -43,7 +43,7 @@
 <img src="{$settings.site_url}/images/banners/epf1.gif" width=160 height=600 />
 </a>
 <br><br>
-<textarea disabled class=inpts cols=75 rows=3>
+<textarea readonly class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
 <img src="{$settings.site_url}/images/banners/epf1.gif" width=160 height=600 />
 </a>
