@@ -11,12 +11,12 @@
              <tr>
 				<td class="f_13 color_1 pad_10" align="center">
 <a href={$settings.site_url}/?ref={$user.username}>
-	<img src="https://www.amazingmoneymagnet.com//upload/banners/03222703102012.gif" width=125 height=125 />
+	<img src="{$settings.site_url}/images/banners/epf2.gif" width=125 height=125 />
 </a>
 <br><br>
 <textarea disabled class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
-<img src="https://www.amazingmoneymagnet.com//upload/banners/03222703102012.gif" width=125 height=125 />
+<img src="{$settings.site_url}/images/banners/epf2.gif" width=125 height=125 />
 </a>
 </textarea><br><br><br>
 <hr/>
@@ -25,13 +25,13 @@
 			 <tr>
 			<td class="f_13 color_1 pad_10" align="center">
 			<a href={$settings.site_url}/?ref={$user.username}>
-<img src="https://www.amazingmoneymagnet.com//upload/banners/03225003102012.gif" width=468 height=60 />
+<img src="{$settings.site_url}/images/banners/epf8.gif" width=468 height=60 />
 </a>
 
 <br><br>
 <textarea disabled class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
-<img src="https://www.amazingmoneymagnet.com//upload/banners/03225003102012.gif" width=468 height=60 />
+<img src="{$settings.site_url}/images/banners/epf8.gif" width=468 height=60 />
 </a>
 </textarea><br><br><br>
 <hr/>
@@ -40,12 +40,12 @@
 			<tr>
 			<td class="f_13 color_1 pad_10" align="center">
 			<a href={$settings.site_url}/?ref={$user.username}>
-<img src="https://www.amazingmoneymagnet.com//upload/banners/03231403102012.gif" width=468 height=60 />
+<img src="{$settings.site_url}/images/banners/epf1.gif" width=160 height=600 />
 </a>
 <br><br>
 <textarea disabled class=inpts cols=75 rows=3>
 <a href={$settings.site_url}/?ref={$user.username}>
-<img src="https://www.amazingmoneymagnet.com//upload/banners/03231403102012.gif" width=468 height=60 />
+<img src="{$settings.site_url}/images/banners/epf1.gif" width=160 height=600 />
 </a>
 </textarea><br><br><br>
 			</td>
