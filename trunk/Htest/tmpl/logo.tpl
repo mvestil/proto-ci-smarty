@@ -12,7 +12,7 @@
     <div id="first_layer" class="header">
      <table cellpadding="0" cellspacing="0" width="998">
       <tr>
-       <td align="left" valign="middle" class="h_85 w_237"><a href="index.html"><img src="images/logo.png" width="237" height="57" /></a></td>
+       <td align="left" valign="middle" class="h_85 w_237"><a href="?a=home"><img src="images/logo.png" width="237" height="57" /></a></td>
       </tr>
      </table>
     </div>
