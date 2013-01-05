@@ -36,9 +36,8 @@ function go(p)
 					</select>
 				</td>
 				
-				{if $ecs}
+				{if 1}
 					<td class="pad_20_b">
-					<br><img src=images/q.gif width=1 height=4><br>
 					   <select name=ec class=select_190>
 						 <option value=-1>All eCurrencies</option>
 							{section name=ec loop=$ecs}
