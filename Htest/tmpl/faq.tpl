@@ -15,8 +15,8 @@
 	   <p><b>Do you have SSL encryption?</b><br />Yes, we have SSL certificate issued by COMODO.<br /><br /></p>
 	   <p class="blck"><b>ACCOUNT QUESTIONS</b></p>
 	   <p><b>How can I create an account?</b><br />Opening an account with us is easy. You simply need to fill out the registration form located here.</p>
-	   <p><b>How can I change my e-mail address or password?</b><br />Log into your FX7 Pro account and click on the "Edit Account". You can change your e-mail address and password there. </p>
-	   <p><b>What if I can't log into my account because I forgot my password?</b><br />Click <a href="#" class="db_blck"><b>Password Reminder</b></a> link, type your username or e-mail and you'll receive your account information. </p>
+	   <p><b>How can I change my e-mail address or password?</b><br />Log into your Elite Prime Finance account and click on the "Edit Account". You can change your e-mail address and password there. </p>
+	   <p><b>What if I can't log into my account because I forgot my password?</b><br />Click <a href="?a=forgot_password" class="db_blck"><b>Password Reminder</b></a> link, type your username or e-mail and you'll receive your account information. </p>
 	   <p><b>May I open several accounts in your program?</b><br />No. If we find that one member has more than one account, the entire funds will be frozen.<br /><br /> </p>
 	   <p class="blck"><b>DEPOSIT QUESTIONS</b></p>
 	   <p><b>Which e-currencies do you accept?</b><br />We accept Liberty reserve, Perfect Money and Payza.</p>
