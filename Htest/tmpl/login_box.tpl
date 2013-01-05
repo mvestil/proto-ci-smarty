@@ -43,13 +43,13 @@ function checklogin() {
             <div class="clear pad_3_b pad_3_t" align="left">
 			<input name=password class="txt_13 txtfield_193" type="password" /></div>
             <div class="clear pad_20_b"></div>
-            <div class="clear">
+            {*<div class="clear">
              <div class="float_l"><input name="" type="checkbox" value="" /></div>
              <div class="float_l txt_11" align="left">
               <div class="clear pad_3_t pad_3_b pad_3_l">Keep me signed in</div>
               <div class="clear pad_3_l">Uncheck if on a shared computer)</div>
              </div>
-            </div>
+            </div>*}
             <div class="clear h_20"></div>
             <div class="clear" align="center">
              <table cellpadding="0" cellspacing="0">
