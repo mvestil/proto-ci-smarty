@@ -1,20 +1,12 @@
 <html>
 <head></head>
 <body>
-	<h2>BOGS BLAST</h2>
-	<form method="post" action="blast">
+	<h2>KATHERINE BLAST</h2>
+	<form method="post" action="katherineblast">
 					<table>
 						<tr>
 							<td>Title</td>
 							<td><input name="title" type="text" maxlength="100"/></td>
-						</tr>
-						<tr>
-							<td>Banner URL</td>
-							<td><input name="banner_url" type="text" /></td>
-						</tr>
-						<tr>
-							<td>Referral Link</td>
-							<td><input name="dest_url" type="text" /></td>
 						</tr>
 						<tr>
 							<td>Message</td>

@@ -90,6 +90,7 @@
 							<td align="center" colspan="2">
 							<input name="submit" type="submit" value="Submit" />
 							<input name="submit" type="submit" value="Preview" />
+                                                        <input name="submit" type="submit" value="Test" />
 							</td>
 						</tr>
 					</table>

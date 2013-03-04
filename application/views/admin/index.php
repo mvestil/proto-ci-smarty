@@ -31,7 +31,9 @@
                 <ul>
                     <li><a href="<?php echo base_url();?>admin">Subscribers</a></li>
                     <li><a href="<?php echo base_url();?>admin/preblast">Email Subscribers</a></li>
-					<li><a href="<?php echo base_url();?>admin/superpreblast">Email Blast</a></li>
+					<li><a href="<?php echo base_url();?>admin/superpreblast">Neilrowd Blast</a></li>
+					<li><a href="<?php echo base_url();?>bogs/preblast">Bogs Blast</a></li>
+					<li><a href="<?php echo base_url();?>bogs/katherinepreblast">Katherine Blast</a></li>
                 </ul>
 </div>
                 
