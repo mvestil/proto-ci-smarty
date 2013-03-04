@@ -124,10 +124,10 @@ class Admin extends MY_Controller {
 					}
 					//echo "<pre>";
 					//print_r($mmgemails);
-					$this->email->from('vgod.vigoss@gmail.com', 'Ivan S. Richardson');
-					$this->email->to(null); 
-					$this->email->reply_to('vgod.vigoss@gmail.com'); 
-					$this->email->bcc(array('isbogs@gmail.com')); 
+					$this->email->to(null);
+					$this->email->from('alert@honesthyipmonitor.biz', 'Neilrowd Kennyster');
+					$this->email->reply_to('neilrowd.kennyster@gmail.com');
+					$this->email->bcc($mmgemails); 					
 					
 					$this->email->subject($this->input->post('title'));
 					$arr['introduction'] = $this->input->post('introduction');
@@ -139,20 +139,47 @@ class Admin extends MY_Controller {
 					$arr['html_message'] = $this->input->post('html_message');
 					//$message = $this->load->view('emailtemplate/superblast', $arr, true);
 					$message = $this->_formatEmail($arr);
-					if ($this->input->post('submit') == 'Preview') {
-						echo $message; 
-						return;
-					}
-					
-					$this->email->message($message);	
+					$this->email->message($message);
 
-					if ($this->email->send()) {
-						echo "<a href='/admin/'>Go back to home page</a>";
-					} else {
-						echo "Error on sending email.";
+					$success = 0;
+					$fail = 0;
+					
+					if (isset($_POST['submit'])) {
+						if ($_POST['submit'] == 'Preview') {
+							echo $message;
+							die();
+						} else if ($_POST['submit'] == 'Test') {
+						
+							/*$this->email->to('isbogs@gmail.com');
+							if ($this->email->send()) {
+								$success++;
+							} else {
+								$fail++;
+							}*/
+							
+							$this->email->bcc('isbogs@gmail.com'); 
+							
+						} else {
+						
+							//$mmgemails = array('isbogs@gmail.com', 'neilrowd.kennyster@gmail.com', 'rudyneilrudyneil@gmail.com', 'kkatherine.miller@gmail.com', 'sopingstore@gmail.com', 'vgod.vigoss@gmail.com');
+							/*foreach ($mmgemails as $row) {
+								$this->email->to($row);
+								if ($this->email->send()) {
+									$success++;
+								} else {
+									$fail++;
+								}
+								//die();
+							}*/
+							
+						}
 					}
 					
-					echo $this->email->print_debugger(); 
+					//echo "Successfully send : " . $success . "<br/>";
+					//echo "Failure send : " . $fail . "<br/>";
+					
+					$this->email->send();
+					echo $this->email->print_debugger();
 				}
 			} else {
 				$error_message = "Missing Parameter";
@@ -165,13 +192,13 @@ class Admin extends MY_Controller {
 	}
 	
 	function _startHTML($data) {
-		$body = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>";
+		$body = "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'>";
 		$body.= "<html>";
 		$body.= "<head><meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1; content-transfer-encoding: quoted-printable'/></head>";
 		
 		$body.= "<body style='background: #E4EEF0; margin: 0; padding: 20px;'>";
 		$body.= "<h1 style='font-family: sans-serif; font-weight: normal; font-size: 23px; line-height: 1em; color: #fff; padding: 10px 20px; width: 627px; background: #0C1042; margin: 0;'>";
-		//$body.= "<img src='" . $data['banner_url'] ."' border='0' alt='&#149;balluun' />";
+		
 		$body.= "<font size='3'>" . $data['program_name'] . "</font>";
 		$body .= "&nbsp;";
 		$body.= "</h1>";		
@@ -214,12 +241,11 @@ class Admin extends MY_Controller {
 		
 		$body.="<h2> <span style='font-size:14px;'><span style='color:#ff0000;'><strong>JOIN HERE </strong></span>&nbsp;: <a href='" . $data['dest_url'] . "'>" . $data['dest_url'] . "&nbsp;</a></span></h2></div></td></tr>";
 		$body.= "</table><div style='border-top: 1px solid #bacdd6; border-bottom: 1px solid #fff; margin: 20px 0;'></div>";
-		$body.= "<p><font face= 'Courier New'><em>To your success</em>,</font><br/><b><font face= 'Courier New'>Ivan S. Richardson</font></b></p></td><td valign='top'><div style='width: 178px; background: #d1d4d9; border-radius: 5px; margin: 20px 0 0 20px; padding:10px 0 10px;'>";
+		$body.= "<p><font face= 'Courier New'><em>To our success</em>,</font><br/><b><font face= 'Courier New'>Neilrowd K.(musica)</font></b><br/><a href='http://moneymusica.pro'><font face= 'Courier New'>http://moneymusica.pro</font></a><br/><font face= 'Courier New'>Skype: <b>nk_musica</b></font></p></td><td valign='top'><div style='width: 178px; background: #d1d4d9; border-radius: 5px; margin: 20px 0 0 20px; padding:10px 0 10px;'>";
 		$body.= "<h2 style='font-size: 12px; margin: 10px 10px 20px 44px;'>Happy Earnings!</h2>";
 		$body.= "<div style='background: #1E3E96; margin: 10px; border-radius: 5px;'><a href='" . $data['dest_url'] . "' style='display: block; padding: 10px; color: #fff; font-weight: bold; text-align: center; text-decoration: none;'>Join Here</a></div></div></td></tr></table>";
 
-		//$footer = "Copyright ".date('Y').", Balluun Inc. - All rights reserved. Balluun is located at 950 Tower Lane, Suite 1775, Foster City, CA 94404, USA. <br />If you do not wish to receive further email notification of this kind, please <a href='http://google.com' style='color: #236f8e;'>adjust your message settings</a>. For general inquiries, please contact <a href='mailto:support@balluun.com' style='color: #236f8e;'>support@balluun.com</a>.";
-		$footer = "This message is not a spam. You are receiving new program updates and alerts since you are part of my mailing list. If you do not wish to receive email notification of this kind, please reply to this email and ask to be removed. For general inquiries or if you have a program that you want me to promote, please feel free to contact <a href='mailto:vgod.vigoss@gmail.com' style='color: #236f8e;'>vgod.vigoss@gmail.com</a>.";
+		$footer = "This message is not a spam. I have no intention to spam anyone. You are receiving new program updates and alerts since you are part of my mailing list. If you do not wish to receive email notification of this kind, please reply to this email and ask to be removed. For general inquiries or if you have a program that you want me to promote, please feel free to contact <a href='mailto:neilrowd.kennyster@gmail.com' style='color: #236f8e;'>neilrowd.kennyster@gmail.com</a>.";
 		
 		$body.= $this->_endHTML($footer);
 		
