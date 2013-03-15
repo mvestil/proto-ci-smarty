@@ -261,7 +261,7 @@ class Bogs extends MY_Controller {
 					}
 					//print_r($_POST) ; die();
 					$this->email->to(null);
-					$this->email->from('alert@honesthyipmonitor.biz', 'Money4You');
+					$this->email->from('alert@honesthyipmonitor.biz', 'Money For You');
 					$this->email->reply_to('dadingdodo@gmail.com');
 					$this->email->bcc($mmgemails); 
 					
