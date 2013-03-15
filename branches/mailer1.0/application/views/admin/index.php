@@ -34,6 +34,7 @@
 					<li><a href="<?php echo base_url();?>admin/superpreblast">Neilrowd Blast</a></li>
 					<li><a href="<?php echo base_url();?>bogs/preblast">Bogs Blast</a></li>
 					<li><a href="<?php echo base_url();?>bogs/katherinepreblast">Katherine Blast</a></li>
+					<li><a href="<?php echo base_url();?>bogs/moneyforyoupreblast">Money For You Blast</a></li>
                 </ul>
 </div>
                 
