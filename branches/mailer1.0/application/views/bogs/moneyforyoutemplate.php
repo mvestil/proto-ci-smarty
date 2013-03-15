@@ -1,4 +1,4 @@
-<table width="730px" style="background:#353c40 url(https://www.balluuntem.com/platform/email/ba-bg.jpg) 0 0 no-repeat;margin:0;padding:30px" cellspacing="0" cellpadding="0">
+<table width="730px" style="background:#353c40;margin:0;padding:30px" cellspacing="0" cellpadding="0">
    <tbody>
       <tr>
          <td>
@@ -19,20 +19,22 @@
                               </tr>
                            </tbody>
                            </table>-->
-                        <table align="center" border="0" cellpadding="5" cellspacing="2" style="width:500px; padding-bottom:30px;">
+                        <table align="center" border="0" cellpadding="5" cellspacing="2" style="width:500px; padding-bottom:10px;">
                            <tbody>
                               <tr>
-                                 <td style="text-align:center"><a href="http://www.zegolia.com/?ref=isbogs" target="_blank"><span style="font-size:12px">Zegolia</span></a></td>
-                                 <td style="text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><span style="font-size:12px">Adsexplosive</span></a></td>
+							     
                                  <td style="text-align:center"><a href="http://www.hourlyrevshare.net/?ref=musica" target="_blank"><span style="font-size:12px">HRS</span></a></td>
+                                 <td style="text-align:center"><a href="http://www.zegolia.com/?ref=isbogs" target="_blank"><span style="font-size:12px">Zegolia</span></a></td>
+                                 <td style="text-align:center"><a href="http://amazingprofitreward.com/?ref=isbogs" target="_blank"><span style="font-size:12px">AmazingProfitReward</span></a></td>
                               </tr>
                               <tr>
+								 <td style="width:166px;text-align:center"><a href="http://www.hourlyrevshare.net/?ref=musica" target="_blank"><img width="125px" height="125px" src="http://www.hourlyrevshare.net/banners/ban1.gif"></a></td>
                                  <td style="width:166px;text-align:center"><a href="http://www.zegolia.com/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://www.zegolia.com/banners/ban1.gif"></a></td>
-                                 <td style="width:166px;text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://adsexplosive.net/banners/ban1.gif"></a></td>
-                                 <td style="width:166px;text-align:center"><a href="http://www.hourlyrevshare.net/?ref=musica" target="_blank"><img width="125px" height="125px" src="http://www.hourlyrevshare.net/banners/ban1.gif"></a></td>
+                                 <td style="width:166px;text-align:center"><a href="http://amazingprofitreward.com/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://amazingprofitreward.com//banners/ban1.gif"></a></td>
                               </tr>
                            </tbody>
                         </table>
+						<div style="text-align:center; padding: 0px 0px 30px"><span style="font-size:12px">Paid Advertisements</span></div>
                         <div id="main_content" style="border:1px solid #e4e6ec;margin-left:33px;margin-right:30px;margin-bottom:33px;padding:33px;font-size:14px;color:#666666">
                           <?php echo $message;?>
                         </div>
@@ -42,18 +44,18 @@
                   <tr>
                      <td>
                         <div style="line-height:1;padding:15px 20px;background:#e6e9ed;overflow:hidden;clear:both">
-                           <p>Prelaunch Programs</p>
+                           <p>Recommended Programs</p>
                            <table align="center" border="0" cellpadding="5" cellspacing="2" style="width:500px; padding-bottom:30px;">
                               <tbody>
                                  <tr>
-                                    <td style="text-align:center"><a href="http://www.zegolia.com/?ref=isbogs" target="_blank"><span style="font-size:12px">Zegolia</span></a></td>
-                                    <td style="text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><span style="font-size:12px">Adsexplosive</span></a></td>
-                                    <td style="text-align:center"><a href="http://www.hourlyrevshare.net/?ref=musica" target="_blank"><span style="font-size:12px">HRS</span></a></td>
+									<td style="text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><span style="font-size:12px">Adsexplosive</span></a></td>
+                                    <td style="text-align:center"><a href="http://lifetimepaidhourly.com/?kkatherine" target="_blank"><span style="font-size:12px">LifeTimePaidHourly</span></a></td>
+									<td style="text-align:center"><a href="http://www.paidps.com/index.php?ref=7" target="_blank"><span style="font-size:12px">PaidPS</span></a></td>
                                  </tr>
                                  <tr>
-                                    <td style="width:166px;text-align:center"><a href="http://www.zegolia.com/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://www.zegolia.com/banners/ban1.gif"></a></td>
-                                    <td style="width:166px;text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://adsexplosive.net/banners/ban1.gif"></a></td>
-                                    <td style="width:166px;text-align:center"><a href="http://www.hourlyrevshare.net/?ref=musica" target="_blank"><img width="125px" height="125px" src="http://www.hourlyrevshare.net/banners/ban1.gif"></a></td>
+									<td style="width:166px;text-align:center"><a href="http://adsexplosive.net/?ref=isbogs" target="_blank"><img width="125px" height="125px" src="http://adsexplosive.net/banners/ban1.gif"></a></td>
+									<td style="width:166px;text-align:center"><a href="http://lifetimepaidhourly.com/?kkatherine" target="_blank"><img width="125px" height="125px" src="http://lifetimepaidhourly.com/images/banner_ad/064000b72064f361cb155e97d913be17.gif"></a></td>
+                                    <td style="width:166px;text-align:center"><a href="http://www.paidps.com/index.php?ref=7" target="_blank"><img width="125px" height="125px" src="http://www.paidps.com/upload/banners/11134312022013.gif"></a></td>
                                  </tr>
                               </tbody>
                            </table>
