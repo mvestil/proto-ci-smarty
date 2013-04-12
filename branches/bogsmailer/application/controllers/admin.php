@@ -127,7 +127,7 @@ class Admin extends MY_Controller {
 					//print_r($mmgemails);
 					$this->email->to(null);
 					$this->email->from('alert@honesthyipmonitor.biz', 'Neilrowd Kennyster');
-					$this->email->reply_to('neilrowd.kennyster@gmail.com');
+					$this->email->reply_to('moneymusica@gmail.com');
 					$this->email->bcc($mmgemails); 					
 					
 					$this->email->subject($this->input->post('title'));
