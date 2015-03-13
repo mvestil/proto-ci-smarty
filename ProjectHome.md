@@ -1,0 +1,1 @@
+prototype for CI with smarty
